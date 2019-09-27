@@ -1,0 +1,24 @@
+.nav-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.nav-links {
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5vw;
+  color: #3a3a3a;
+  padding: 0, 10px;
+  white-space: nowrap;
+}
+
+.nav-links:hover {
+  color: #01a504;
+}
+
+.navbar-inverse .navbar-nav > li:hover {
+  background-color: green;
+}
+.green-txt {
+  color: #01a504;
+}

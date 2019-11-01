@@ -22,3 +22,46 @@
 .green-txt {
   color: #01a504;
 }
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+  height: 200px;
+  background-color: cyan;
+  margin: 8rem;
+}
+
+.items {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin: 5vh, 0, 5vh, 0;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: baseline;
+}
+
+#first {
+  order: 1;
+}
+
+#second {
+  order: 2;
+}
+
+#third {
+  order: 3;
+}
+
+#fourth {
+  order: 4;
+}
+
+#active-video {
+  justify-content: right;
+}

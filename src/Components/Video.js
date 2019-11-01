@@ -26,7 +26,7 @@ function video() {
         <ResponsiveEmbed aspectRatio="16by9">
           <iframe
             title="vimeo-player"
-            src="https://player.vimeo.com/video/362083224"
+            src="https://vimeo.com/363595653"
             frameborder="0"
             allowfullscreen=""
             name="fitvid0"

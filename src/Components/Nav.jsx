@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -21,16 +22,17 @@ function Navigation() {
       >
         <Nav>
           <Nav.Item>
-            <Nav.Link href="/home">
-              <a className="nav-links">INTRO</a>
+            <Nav.Link href="/">
+              <a className="nav-links">HOME</a>
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
-            <Nav.Link eventKey="expertise">
+            <Nav.Link href="cooking" eventKey="expertise">
               <span className="nav-links">EXPERTISE</span>
             </Nav.Link>
           </Nav.Item>
+
           <Nav.Item>
             <Nav.Link eventKey="awards">
               <span className="nav-links">AWARDS</span>
